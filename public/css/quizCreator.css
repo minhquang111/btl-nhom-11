@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    height: 55px;
+    width: 100%;
+    background-color: rgb(70, 23, 143);
+    position: fixed;
+    top: 0;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: right;
+}
+.menu ul #new{
+    float: left;
+}
+.menu ul #kahoot{
+    float: left;
+    font-size: 37px;
+    font-family: 'Mansalva', cursive;
+    color:white;
+    line-height: 55px;
+    padding: 0px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 55px;
+    margin: 0px 10px;
+    padding:5px 15px;
+    
+}
+
+.menu ul li a:hover{
+    background: rgb(39, 6, 90);
+    border-radius: 5px;
+}
+.menu button{
+    background-color: white;
+    padding: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size:20px;
+    font-weight: 600;
+    margin: 7px 7px;
+    border-radius: 5px;
+}
+.menu button:hover{
+    background-color: rgb(223, 215, 215);
+    border-radius: 5px;
+}
+.body{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.form-field{
+    width: 90%;
+    height: 110px;
+    margin: 0 auto;
+}
+.form-field input{
+    width: 100%;
+    height: 80px;
+    margin: 20px auto;
+    font-size: 30px;
+    padding: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border:2px solid rgb(179, 176, 176);
+}
+
+.question{
+    margin-left: 30px ;
+    width: 70%;
+    height: 40px;
+    color: black;
+    font-size:20px;
+    padding:0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid rgb(65, 63, 63);
+}
+
+.Answer1{
+    width: 47%;
+    margin: 5px 1%;
+    height: 30px;
+    color: black;
+    font-size:16px;
+    padding:0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: rgb(226, 27, 60);
+}
+
+.Answer2{
+    width: 47%;
+    margin: 5px 1%;
+    height: 30px;
+    color: black;
+    font-size:16px;
+    padding:0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: rgb(19, 104, 206);
+}
+.Answer1::placeholder,.Answer2::placeholder,.Answer3::placeholder,.Answer4::placeholder {
+    color: white;
+} 
+.Answer3{
+    width: 47%;
+    margin: 5px 1%;
+    height: 30px;
+    color: black;
+    font-size:16px;
+    padding:0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: rgb(216, 158, 0);
+}
+
+.Answer4{
+    width: 47%;
+    margin: 5px 1%;
+    height: 30px;
+    color: black;
+    font-size:16px;
+    padding:0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: rgb(38, 137, 12);
+}
+
+#allQuestions{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+#question-field{
+    width: 47%;
+    margin: 5px 1%;
+    height: 250px;
+    border: 2px solid rgb(58, 55, 55);
+    border-radius: 5px;
+    padding:10px 10px;
+    float: left;
+    box-shadow: 4px 4px rgba(160, 156, 156, 0.863);
+}
+label{
+    font-size: 20px;
+    margin-left: 5px;
+}
+input[type=number]{
+    width:70px;
+    margin: 5px 1%;
+    height: 30px;
+    color: black;
+    font-size:16px;
+    padding:0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+} 
+.auto{
+    width: 75%;
+    margin: 0px auto;
+    height: 20px;
+    margin-bottom:20px ;
+}
+#correctauto{
+    width: 150px;
+}
+#timeauto{
+    width: 150px;
+}
+#poinauto{
+    width: 150px;
+}
+.buttonauto{
+    width: 60px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    background-color: rgb(38, 137, 12);
+    border-radius: 5px;
+    transition: 0.3s all;
+}
+.buttonauto:hover{
+    background-color: rgb(26, 100, 7);
+}

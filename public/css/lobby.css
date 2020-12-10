@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-color: #f1f1f1f5;
+}
+.header{
+    background-color: #f1f1f1f5;
+}
+.header .question{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+}
+.header .question #pin{
+    text-align: left;
+    font-size: 30px;
+    line-height: 80px;
+    float: left;
+    padding: 0px 20px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900px;
+    
+}
+
+.header .question #name{
+    text-align: right;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    padding: 0px 20px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900px;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+.giua{
+    width: 100%;
+    margin-top:60px;
+}
+.giua #title1{
+    text-align:center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px rgb(83, 82, 82);
+    font-size: 40px;
+    font-weight: 700;
+}
+.giua #title2{
+    text-align:center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-shadow: 2px 2px rgb(83, 82, 82);
+}
+.loader {
+    display: block;
+    height: 50%;
+    margin: 0 auto;
+    margin-top:150px;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3A3B3A;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 1.5s linear infinite; /* Safari */
+    animation: spin 1.5s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

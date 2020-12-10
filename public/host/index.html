@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Host | KahootClone</title>
+        <link rel = "stylesheet" href = "../css/host.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="title">
+            <div class="title1"><h2 id = "title">Game Pin:</h2></div>
+            <div class="title2"><h2 id = "gamePinText">1234342</h2></div>
+        </div>
+        <hr>
+        <div class="v1">
+            <h3 id = "numberOfPlayers">Number of players: <span id = number></span> </h3>
+            
+        </div>
+        <div class="v2" >
+            <h1 id = "kahoot">Kahoot!</h1>
+        </div>
+        <div class="v3">
+            <button id = 'cancel' onclick = "endGame()">Cancel</button>
+            <button id = 'start' onclick = "startGame()">Start</button>
+            
+        </div>
+        <div class="v4">
+            <ul id = "players">
+               
+            </ul>
+        </div>
+        
+        <script src = "../socket.io/socket.io.js"></script>
+        <script src = "../js/libs/jqueryLibrary.js"></script>
+        <script src = "../js/libs//deparam.js"></script>
+        <script src = "../js/host.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game | KahootClone</title>
+    <link rel="stylesheet" href="../css/edit.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="menu1">
+        <ul>
+            <li id="kahoot">Kahoot!</li>
+            <li id="kahoot_new"> <a href = "/create/quiz-creator">New</a></li>
+            <li id="kt_new"> <a href = "/create/">Home</a></li>
+            <li id="kt_new"> <a href = "/bankquestion/">Question bank</a></li>
+            <li><a href = "../" >Back</a></li>
+            <li><a href="/users/logout">Logout</a></li>
+        </ul>
+    </div>
+    <div class="body">
+        <div class="anh" id="anh">
+            <div class="img" id="img" >;
+                <h3 id='name'></h3>
+            </div>
+            <button id="save" onclick = "save()">Save</button>
+        </div>
+        <div id="allQuestions">
+
+        </div>
+    </div>
+
+    <script src="../socket.io/socket.io.js"></script>
+    <script src="../js/libs/jqueryLibrary.js"></script>
+    <script src="../js/libs/deparam.js"></script>
+    <script src="../js/edit.js"></script>
+</body>
+
+</html>
+

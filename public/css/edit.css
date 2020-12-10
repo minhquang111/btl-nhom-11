@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu1{
+    height: 55px;
+    width: 100%;
+    background-color: rgb(70, 23, 143);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.menu1 ul{
+    list-style: none;
+}
+.menu1 ul li{
+    float: right;
+}
+.menu1 ul #kahoot_new{
+    float: left;
+}
+.menu1 ul #kahoot{
+    float: left;
+    font-size: 37px;
+    font-family: 'Mansalva', cursive;
+    color:white;
+    line-height: 55px;
+    padding: 0px 20px;
+}
+.menu1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 55px;
+    margin: 0px 10px;
+    padding:5px 15px;
+    
+}
+#kt_new{
+    float:left;
+}
+
+#kt_new a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 55px;
+    margin: 0px 10px;
+    padding:5px 15px;
+}
+.menu1 ul li a:hover{
+    background: rgb(39, 6, 90);
+    border-radius: 5px;
+}
+.menu1 #kahoot_new a{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size:20px;
+    font-weight: 600;
+    margin: 7px 7px;
+}
+.menu1 #kahoot_new a:hover{
+    background-color: rgb(223, 215, 215);
+}
+
+.body{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.anh{
+    width: 30%;
+    float:left;
+}
+.anh .img{
+    width:320px;
+    height:400px;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-size: cover ;
+}
+.anh h3{
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px rgb(83, 82, 82);
+}
+.anh button{
+    margin-left: 152px;
+    width: 80px;
+    height: 40px;
+    margin-top:10px;
+    background-color:  rgb(38, 137, 12);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    border-radius: 5px;
+    transition: 0.3s all;
+
+}
+.anh button:hover{
+    background-color: rgb(26, 97, 8);
+}
+#allQuestions{
+    width: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    float:right;
+}
+.question{
+    margin-left: 30px ;
+    width: 80%;
+    height: 55px;
+    color: black;
+    font-size:20px;
+    padding:0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid rgb(65, 63, 63);
+}
+
+.Answer1{
+    width: 47%;
+    height: 55px;
+    margin: 5px 1%;
+    color: black;
+    font-size:20px;
+    padding:0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: rgb(226, 27, 60);
+}
+
+.Answer2{
+    width: 47%;
+    height: 55px;
+    margin: 5px 1%;
+    color: black;
+    font-size:20px;
+    padding:0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: rgb(19, 104, 206);
+}
+.Answer1::placeholder,.Answer2::placeholder,.Answer3::placeholder,.Answer4::placeholder {
+    color: white;
+} 
+.Answer3{
+    width: 47%;
+    height: 55px;
+    margin: 5px 1%;
+    color: black;
+    font-size:20px;
+    padding:0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: rgb(216, 158, 0);
+}
+
+.Answer4{
+    width: 47%;
+    height: 55px;
+    margin: 5px 1%;
+    color: black;
+    font-size:20px;
+    padding:0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: rgb(38, 137, 12);
+}
+
+
+
+#question-field{
+    width: 95%;
+    margin: 5px 1%;
+    height: 285px;
+    border: 2px solid rgb(58, 55, 55);
+    border-radius: 5px;
+    padding:10px 10px;
+    float: left;
+    box-shadow: 4px 4px rgba(160, 156, 156, 0.863);
+}
+label{
+    font-size: 20px;
+    margin-left: 5px;
+}
+input[type=number]{
+    width:70px;
+    margin: 5px 1%;
+    height: 30px;
+    color: black;
+    font-size:16px;
+    padding:0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+} 
+input[type=file]{
+    float:right;
+    margin-right:40px;
+}

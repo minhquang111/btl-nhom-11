@@ -1,0 +1,22 @@
+<div class="menu1">
+    <ul>
+        <li id="kahoot">Kahoot!</li>
+        <li id="kahoot_new"> <a href = "/create/quiz-creator">New</a></li>
+        <li id="kt_new"> <a href = "/create/">Home</a></li>
+        <li id="kt_new"> <a href = "/bankquestion/">Question bank</a></li>
+        <li><a href = "../" >Back</a></li>
+        <li><a href="/users/logout">Logout</a></li>
+        <li><a id = "user-name"><%= user.name %></a></li>
+    </ul>
+    <input type="hidden" id = 'id_user' value="<%= user.id %>">
+</div>
+<div class="cauhoi">
+    <div class="cauhoi1">
+        <ul id = "game-list">
+        </ul>
+    </div>
+</div>
+
+
+<script src = "../socket.io/socket.io.js"></script>
+<script src = "../js/bankquestion.js"></script>

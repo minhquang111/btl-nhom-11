@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-color: #f1f1f1f5;
+}
+
+.body{
+    height: 190px;
+}
+.container .body .answer1{
+    width: 49.5%;
+    height: 75px;
+    background-color: rgb(226, 27, 60);
+    float: left;
+    margin: 4px 0px;
+    border-radius: 7px;
+}
+.container .body .answer2{
+    width: 49.5%;
+    height: 75px;
+    background-color:rgb(19, 104, 206);
+    float: right;
+    margin: 4px 0px;
+    border-radius: 7px;
+}
+.container .body .answer3{
+    width: 49.5%;
+    height: 75px;
+    background-color:rgb(216, 158, 0);
+    float: left;
+    margin: 4px 0px;
+    border-radius: 7px;
+}
+.container .body .answer4{
+    width:49.5%;
+    height: 75px;
+    background-color: rgb(38, 137, 12);
+    float: right;
+    margin: 4px 0px;
+    border-radius: 7px;
+}
+.container .body{
+    width:95%;
+    margin: 0 auto;
+    display: block;
+}
+.container .body .answer1:hover,.container .body .answer2:hover,.container .body .answer3:hover,.container .body .answer4:hover{
+    opacity: 0.9;
+}
+.canchinh{
+    padding:18px 15px;
+}
+i{
+    color:white;
+}
+h3{
+    display: inline-block;
+    padding:0px 7px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    background-color: #f1f1f1f5;
+}
+.header .question{
+    height: 80px;
+}
+.header .question h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+    
+}
+
+.than{
+    width: 100%;
+    height:335px;
+    display: block;
+
+}
+
+.than .than1{
+    float:left;
+    width: 20%;
+    height:335px;
+}
+
+.than .than1 #poinText{
+    margin-top: 25px;
+    text-align: center;
+    display: block;
+}
+.than .than1 #timerText{
+    margin-top: 55px;
+    margin-left: 100px;
+}
+.than .than1 #timerText span{
+    background: rgb(75,39,132);
+    padding: 10px 18px;
+    border-radius: 50%;
+    color:white;
+}
+
+.than .than2{
+    width: 60%;
+    float:left;
+    height:335px;
+    display: block;
+}
+
+.than .than2 .img{
+    height: 70%;
+    width: 70%;
+    margin: 30px auto;
+    background-size:cover ;
+}
+/* .than .than2 .img img{
+    height: 100%;
+    width: 100%;
+    background-size:cover ;
+} */
+.can_quare button{
+    background-color: royalblue;
+    width: 70px;
+    text-align: center;
+    padding: 7px;
+    float:right;
+    border-radius: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color:white;
+    font-size: 16px;
+    margin:10px 293px;
+}
+
+#listGame{
+    width: 60%;
+    float:left;
+    height:335px;
+    display: none;
+    margin:0 auto;
+}
+#listGame .chuaList{
+    list-style: none;
+    width:75%;
+    background-color: #c2babaf5;
+    margin:0 auto;
+    margin-top: 8px;
+    height:310px;
+    padding:15px 10px;
+    border-radius: 20px;
+    box-shadow: 4px 5px rgb(78, 74, 74);
+}
+#listGame .chuaList li{
+    width: 90%;
+    height:50px;
+    background-color: rgb(245, 238, 227);
+    border-radius: 30px;
+    border:2px solid  rgb(78, 74, 74);
+    margin:0 auto;
+    margin-top:5px;
+   
+}
+.ten{
+    float:left;
+    width:50%;
+    padding:6px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+}
+.diem{
+    float: right;
+    width:50%;
+    padding:6px 40px;
+    text-align:right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.than .than3{
+    width: 20%;
+    float:left;
+    height:335px;
+}
+.than .than3 button{
+    background-color: royalblue;
+    width: 70px;
+    text-align: center;
+    padding: 7px;
+    float:right;
+    margin-right: 7px;
+    margin-top: 40px;
+    border-radius: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color:white;
+    font-size: 16px;
+}
+.than .than3 button:hover{
+    background-color: rgb(23, 65, 192);
+}
+.than .than3 #answered{
+    clear: both;
+    float:right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color:black;
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.than .than3 #playersAnswered{
+    margin-top: 90px;
+    clear: both;
+    float:right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color:black;
+    font-size: 35px;
+    margin-right: 80px;
+}
+
+#nextQButton{
+    display: none;
+}
+
+.than .square{
+    width: 60%;
+    height: 300px;
+    float: left;
+    display: none;
+    
+}
+
+.than .square .can_quare{
+    height: 300px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+#square1{
+    background-color: rgb(226, 27, 60);
+    float:left;
+    width: 23%;
+    margin-top: 200px;
+    margin-right: 2.6%;
+    height: 45px;
+    border-radius: 5px;
+}
+#square2{
+    background-color: rgb(19, 104, 206);
+    float:left;
+    width: 23%;
+    margin-top: 200px;
+    margin-right: 2.6%;
+    height: 45px;
+    border-radius: 5px;
+}
+#square3{
+    background-color: rgb(216, 158, 0);
+    float: left;
+    width: 23%;
+    margin-top: 200px;
+    margin-right: 2.6%;
+    height: 45px;
+    border-radius: 5px;
+}
+#square4{
+    background-color: rgb(38, 137, 12);
+    float: left;
+    width: 23%;
+    margin-top: 200px;
+    height: 45px;
+    border-radius: 5px;
+   
+}
+
+.can_quare i{
+   padding:8px 60px;
+    color:white;
+}
+
+#win2{
+    width:30%;
+    height: 150px;
+    background-color: #674787;
+    display: block;
+    float: left;
+    margin-right: 5%;
+    margin-top: 150px;
+}
+#win1{
+    width:30%;
+    height: 200px;
+    background-color: #674787;
+    display: block;
+    float: left;
+    margin-right: 5%;
+    margin-top: 100px;
+
+}
+#win3{
+    width:30%;
+    height: 100px;
+    background-color: #674787;
+    display: block;
+    float: left;
+    margin-top: 200px;
+}
+.top3{
+    width:60%;
+    height: 500px;
+    margin:0px auto;
+}
+#winnerTitle{
+    width:60%;
+    height: 500px;
+    margin:0px auto;
+    display: none;
+}
+
+.top3 h3{
+    background-color: whitesmoke;
+    padding:3px 14px;
+    border-radius:48%;
+    margin-left:52px;
+    margin-top: 15px;
+}
+.winner{
+    color:#080808;
+    margin-top:-29px;
+    text-align: center;
+}
+button:hover{
+    background-color: rgb(23, 65, 192);
+}
+.foot{
+    width: 100%;
+    height:45px;
+    background-color: white;
+    border-top: 3px solid #ccc;
+    
+}
+.chia{
+    width: 80%;
+    height:45px;
+    margin: 0 auto;
+}
+.foot .chia h2{
+    display: inline;
+    line-height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+}
+#dung1{
+    display: none;
+    float: right;
+}
+#dung2{
+    display: none;
+    float: right;
+}
+#dung3{
+    display: none;
+    float: right;
+}
+#dung4{
+    display: none;
+    float: right;
+}

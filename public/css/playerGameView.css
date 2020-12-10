@@ -1,0 +1,61 @@
+html, body { height: 100%; padding: 0; margin: 0; box-sizing: border-box; }
+button{
+    width: 50%; height: 50%; float: left;
+}
+#answer1{
+    background-color: rgb(226, 27, 60);
+}
+#answer2{
+    background-color: rgb(19, 104, 206);
+}
+#answer3{
+    background-color: rgb(216, 158, 0);
+}
+#answer4{
+    background-color: rgb(38, 137, 12);
+}
+
+#buttons{
+    text-align: center;
+}
+#answer1:hover{
+    filter:brightness(80%);
+}
+#answer2:hover{
+    filter:brightness(80%);
+}
+#answer3:hover{
+    filter:brightness(80%);
+}
+#answer4:hover{
+    filter:brightness(80%);
+}
+#nameText{
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 10px;
+}
+#scoreText{
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 10px;
+}
+#message{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 35px;
+    display: none;
+}
+#nameText{
+    margin-top:150px;
+    display:none;
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+    display: none;
+}
+i{
+    color: white;
+}

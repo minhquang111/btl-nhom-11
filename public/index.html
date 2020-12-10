@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Join | KahootClone</title>
+        <link rel = "stylesheet" href = "css/index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id = "title">Kahoot!</h1>
+        <form action="/player/">
+                <div class="form-field">
+                    <input id = "name" type = "text" name="name" placeholder="Nickname" autofocus/>
+                </div>
+                <br>
+                <div class="form-field">
+                    <input id = "pin" type="number" name="pin" placeholder="Game PIN"/>
+                </div>
+                <br>
+                <div class="form-field">
+                    <button id = "joinButton">Join</button>
+                </div>
+        </form>
+        <br/>
+        <center><a href = "/user/login" id = "host">Click here to create your own kahoot for FREE!</a></center>
+    </body>
+</html>

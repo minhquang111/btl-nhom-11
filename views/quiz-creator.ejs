@@ -1,0 +1,48 @@
+<div class="menu">
+    <ul>
+        <li id="kahoot">Kahoot!</li>
+        <li id="new"> <button onclick ="updateDatabase()">Create</button></li>
+        <li id="new"><button onclick = "addQuestion()"> Add </button></li>
+        <li><a onclick = 'cancelQuiz()' id="user-name">Back</a></li>
+        <li><a href="/users/logout">Logout</a></li>
+        <li><a id="user-name"><%= user.name %></a></li>
+    </ul>
+    <input type="hidden" value="<%= user.id %>" id='id_user'>
+</div>
+<div class="body">
+<div class="form-field">
+    <input id = "name" type = "text" name="name" placeholder="Quiz Title" autofocus/>
+</div>
+<div class="auto">
+<button onclick = "auto()" class="buttonauto"> Auto </button>
+<label>Correct Answer(1-4):</label>
+<input id = "correctauto"  type = "number" placeholder="Correct auto" autofocus/>
+<label>Time:</label>
+<input id = "timeauto"  type = "number" placeholder="Time auto" autofocus/>
+<label>Poin:</label>
+<input id = "poinauto"  type = "number" placeholder="Poin auto" autofocus/>
+</div>
+<ul id = "allQuestions">
+    <li id="question-field">
+       
+        <label>Quiz 1: </label>
+        <input class = "question" id = "q1" type = "text" placeholder="Quiz" autofocus/>
+       
+        <input id = "1a1" class="Answer1" type = "text" placeholder="Answer 1:" autofocus/>
+        <input id = "1a2" class="Answer2" type = "text" placeholder="Answer 2:" autofocus/>
+        <input id = "1a3"  class="Answer3" type = "text" placeholder="Answer 3:" autofocus/>
+        <input id = "1a4"  class="Answer4" type = "text" placeholder="Answer 4:" autofocus/>
+       
+        <label>Correct Answer(1-4):</label>
+        <input class = "correct" id = "correct1"  type = "number" autofocus/>
+        <label>Time</label>
+        <input class = "time" id = "time1"  type = "number" autofocus/>
+        <label>Poin:</label>
+        <input class = "poin" id = "poin1"  type = "number" autofocus/>
+        <label>Image: </label>
+        <input id = "image1"  type = "file" autofocus/>
+    </li>
+</ul>
+</div>
+<script src = "../socket.io/socket.io.js"></script>
+<script src = "../js/quizCreator.js"></script>
